@@ -2,7 +2,7 @@
 <p align="center"><i>This project is a plugin designed for <a href="https://github.com/PrismarineJS/mineflayer">Mineflayer</a> that adds a high level API for writing state machines. As bot AI code can grow very quickly, writing this code in a finite state machine manner can help keep the code base manageable and improve quality of bot behavior trees.</i></p>
 
 <p align="center">
-  <img src="https://github.com/PrismarineJS/mineflayer-statemachine/workflows/Build/badge.svg" />
+  <img src="https://github.com/sefirosweb/mineflayer-statemachine/workflows/Build/badge.svg" />
   <img src="https://img.shields.io/npm/v/mineflayer-statemachine" />
   <img src="https://img.shields.io/github/repo-size/PrismarineJS/mineflayer-statemachine" />
   <img src="https://img.shields.io/npm/dm/mineflayer-statemachine" />
@@ -129,7 +129,7 @@ bot.once("spawn", () =>
 
 ### License
 
-This project uses the [MIT](https://github.com/PrismarineJS/mineflayer-statemachine/blob/master/LICENSE) license.
+This project uses the [MIT](https://github.com/sefirosweb/mineflayer-statemachine/blob/master/LICENSE) license.
 
 ### Contributions
 
