@@ -54,6 +54,7 @@ export class StateMachineWebserver {
     app.use('/web', express.static(path.join(__dirname, publicFolder)))
     app.get('/', (req, res) => res.sendFile(path.join(__dirname, publicFolder, 'index.html')))
 
+    // eslint-disable-next-line @typescript-eslint/no-misused-promises
     const http = httpLoader.createServer(app)
 
     // @ts-expect-error ; Why? Not sure. Probably a type-def loading issue. Either way, it's safe.
