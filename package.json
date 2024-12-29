@@ -1,5 +1,5 @@
 {
-  "name": "mineflayer-statemachine",
+  "name": "minecraftlegion-statemachine",
   "version": "1.7.0",
   "description": "A state machine plugin for Mineflayer to aid in designing more complex behavior trees.",
   "main": "lib/index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheDudeFromCI/mineflayer-statemachine.git"
+    "url": "git+https://github.com/sefirosweb/mineflayer-statemachine.git"
   },
   "keywords": [
     "ai",
@@ -21,14 +21,15 @@
     "mineflayer",
     "state",
     "machine",
-    "fsm"
+    "fsm",
+    "minecraftlegion"
   ],
   "author": "TheDudeFromCI",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TheDudeFromCI/mineflayer-statemachine/issues"
+    "url": "https://github.com/sefirosweb/mineflayer-statemachine/issues"
   },
-  "homepage": "https://github.com/TheDudeFromCI/mineflayer-statemachine#readme",
+  "homepage": "https://github.com/sefirosweb/mineflayer-statemachine#readme",
   "dependencies": {
     "express": "^4.18.1",
     "minecraft-data": "^3.10.2",
