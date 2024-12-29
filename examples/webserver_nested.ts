@@ -16,13 +16,13 @@ import {
 
 import { pathfinder } from 'mineflayer-pathfinder'
 
-if (process.argv.length < 3 || process.argv.length > 6) {
+if (process.argv.length < 2 || process.argv.length > 6) {
   console.log('Usage : node lookatplayers.js <host> <port> [<name>] [<password>]')
   process.exit(1)
 }
 
 const bot = mineflayer.createBot({
-  host: process.argv[2],
+  host: process.argv[2] ?? 'host.docker.internal',
   port: process.argv[3] !== null ? parseInt(process.argv[3]) : 25565,
   username: process.argv[4] !== null ? process.argv[4] : 'statemachine_bot',
   password: process.argv[5]

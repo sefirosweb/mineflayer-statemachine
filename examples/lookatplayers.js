@@ -28,7 +28,7 @@ const {
   BehaviorLookAtEntity,
   EntityFilters,
   NestedStateMachine
-} = require('mineflayer-statemachine')
+} = require('../lib')
 
 // Wait until we spawn
 bot.on('spawn', () => {
