@@ -566,7 +566,9 @@ function init () {
   graph = new Graph(canvas)
   nestedGroups = []
 
-  const socket = io()
+  const socket = io({
+    path: window.location.pathname + 'socket.io'
+  })
   socket.on('connected', packet => onConnected(packet))
   socket.on('stateChanged', packet => onStateChanged(packet))
 }
